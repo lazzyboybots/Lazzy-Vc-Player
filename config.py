@@ -33,8 +33,8 @@ if str(getenv("STRING_SESSION5")).strip() == "":
 else:
     SESSION5 = str(getenv("STRING_SESSION5"))
 
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-BOT_NAME = getenv("BOT_NAME", "Umk")
+BOT_TOKEN = getenv("BOT_TOKEN", "8006038095:AAHJaTzMTrBNlZvBZGpe53Ul8ZZO-d9iAnQ")
+BOT_NAME = getenv("BOT_NAME", "Lazzy VC Music Bot")
 
 API_ID = int(getenv("API_ID", "8726992"))
 API_HASH = getenv("API_HASH", "fbf4bc635f74937b9669af1d715171c9")
@@ -49,7 +49,7 @@ GROUP_SUPPORT = getenv("GROUP_SUPPORT", "")
 UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "")
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("UPDATES_CHANNEL", "HEROKU_API_KEY")
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1669178360").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6834180565 2031076532").split()))
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 ALIVE_IMG = getenv("ALIVE_IMG", "https://telegra.ph/file/fc9d87ffd1c6f828eb7fc.png")
 START_PIC = getenv("START_PIC", "https://telegra.ph/file/a414e2cdfeaa7d4414b89.png")
